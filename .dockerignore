@@ -1,0 +1,58 @@
+# Dependencies
+node_modules
+server/node_modules
+
+# Build outputs
+dist
+server/dist
+.vite
+
+# Development files
+.env.local
+.env.development
+server/.env
+
+# Logs
+*.log
+npm-debug.log*
+logs
+server/logs
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Git
+.git
+.gitignore
+
+# Documentation
+*.md
+!README.md
+
+# Test files
+**/*.test.ts
+**/*.test.tsx
+**/*.spec.ts
+**/*.spec.tsx
+coverage
+
+# Temporary files
+tmp
+temp
+*.tmp
+
+# Uploads (will be mounted as volume)
+server/uploads
+
+# Lock files (keep package-lock.json for reproducible builds)
+# bun.lockb
+# yarn.lock
+# pnpm-lock.yaml

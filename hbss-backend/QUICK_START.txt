@@ -1,0 +1,50 @@
+========================================
+HBSS LiveChat Backend - Quick Start
+========================================
+
+STEP 1: Open a NEW terminal/command prompt
+
+STEP 2: Navigate to backend folder:
+   cd enigma-forge-ui-main/hbss-backend
+
+STEP 3: Run the start script:
+
+   WINDOWS:
+   start.bat
+
+   MAC/LINUX:
+   chmod +x start.sh
+   ./start.sh
+
+   OR MANUALLY:
+   python -m venv venv
+   venv\Scripts\activate (Windows)
+   source venv/bin/activate (Mac/Linux)
+   pip install -r requirements.txt
+   python main.py
+
+STEP 4: You should see:
+   ========================================
+   🚀 HBSS LiveChat Backend Server Starting...
+   ========================================
+   📡 WebSocket endpoint: ws://localhost:8000/ws
+   ✓ Server ready for connections
+
+STEP 5: Keep this terminal open and go back to your browser
+
+STEP 6: Refresh the chat page - it will now connect!
+
+========================================
+Troubleshooting:
+========================================
+
+Error: "python not found"
+Solution: Install Python 3.9+ from python.org
+
+Error: "Port 8000 already in use"
+Solution: Close other programs using port 8000
+
+Error: "Module not found"
+Solution: Run: pip install -r requirements.txt
+
+========================================

@@ -1,0 +1,16 @@
+node_modules
+.env
+.env.local
+*.log
+.DS_Store
+hbss-backend
+hbss-discord
+server
+BlackBerry_Dynamics_SDK_for_React_Native_v13.0.0.21
+*.md
+!README.md
+docker-compose.yml
+Dockerfile
+.dockerignore
+nginx.conf
+*.bat
